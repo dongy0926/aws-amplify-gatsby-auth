@@ -27,22 +27,22 @@ class search extends Component {
                     <h1>YOHJI YAMAMOTO様</h1>
                     <table>
                         <tr>
-                            <td rowspan="2">
+                            <td rowSpan="2">
                                 <label>広告媒体</label>
                             </td>
-                            <td rowspan="2">
+                            <td rowSpan="2">
                                 <input type="text" />
                             </td>
-                            <td rowspan="2">
+                            <td rowSpan="2">
                                 <label>開始日</label>
                             </td>
-                            <td rowspan="2">
+                            <td rowSpan="2">
                                 <input type="date" />
                             </td>
-                            <td rowspan="2">
+                            <td rowSpan="2">
                                 <label>終了日</label>
                             </td>
-                            <td rowspan="2">
+                            <td rowSpan="2">
                                 <input type="date" />
                             </td>
                             <td>
@@ -104,7 +104,6 @@ class search extends Component {
                                 <td></td>
                                 <td></td>
                             </tr>
-
                         </table>
                     </div>
                 </div>
@@ -114,25 +113,25 @@ class search extends Component {
                         <input type="button" class="search_button4_css" value="追加" />
                     </div>
                     <div class="con">
-                        <table border="1px">
+                        <table border="1px" class="border_css">
                             <tr>
-                                <td colSpan="2">検索語</td>
+                                <td class="td_center">検索語</td>
                             </tr>
                             <tr>
-                                <td>YOHJI YAMAMOTO</td>
-                                <td><input type="button" value="削除" /></td>
+                                <td width="85%">YOHJI YAMAMOTO  <input type="button" value="削除" /></td>
+                                
                             </tr>
                             <tr>
-                                <td>YOHJI YAMAMOTO　通販</td>
-                                <td><input type="button" value="削除" /></td>
+                                <td width="85%">YOHJI YAMAMOTO　通販  <input type="button" value="削除" /></td>
+                                
                             </tr>
                             <tr>
-                                <td>YOHJI YAMAMOTO　マスク</td>
-                                <td><input type="button" value="削除" /></td>
+                                <td width="85%">YOHJI YAMAMOTO　マスク <input type="button" value="削除" /></td>
+                          
                             </tr>
                             <tr>
-                                <td>YOHJI YAMAMOTO　Tシャツ</td>
-                                <td><input type="button" value="削除" /></td>
+                                <td width="85%">YOHJI YAMAMOTO　Tシャツ <input type="button" value="削除" /></td>
+                    
                             </tr>
                         </table>
                     </div>

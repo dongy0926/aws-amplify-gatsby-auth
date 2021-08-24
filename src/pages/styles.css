@@ -22517,9 +22517,6 @@ input.form__control {
     width: 100px;
     font-size: 15px;
 }
-/* .search1{
-     background-color: rgb(217, 234, 211,0.5); 
-} */
 .search2{
     padding-top: 100px;
     position: fixed;
@@ -22534,9 +22531,6 @@ input.form__control {
 .border_css{
     border-collapse:collapse;
 }
-/* .border_css tr:nth-child(1){
-    border: 0px;
-} */
 .search_button3_css{
     float:right;
     width: 180px;
@@ -22563,7 +22557,6 @@ input.form__control {
 }
 .head_css{
     height: 100px;
-    background-color:#228980
 }
 .head_css h1{
     margin-top: 50px;
@@ -22576,14 +22569,26 @@ input.form__control {
     border-radius:5px;
     margin-right: 80px;
 }
-.con{
-    background-color:#66b1ff;
+.con table{
+    margin: 0 0;
     width: 650px;
     margin-left: 70px;
 }
 .con tr td{
-    background-color:#66b1ff;
-    width: 250px;
+    text-align: left;
     height: 50px;
     margin-left: 70px;
+    border-collapse:collapse;    
+}
+.con tr td input{
+    height: 30px !important;
+    width: 70px;
+    float: right;
+    margin-right: 10px;
+    background-color: rgb(164, 194, 244);
+    border-radius:5px;
+} 
+.td_center{
+    text-align: center !important;
+    background-color: rgb(102, 102, 102);
 }
