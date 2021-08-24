@@ -1,86 +1,34 @@
-# Gatsby Auth starter with AWS Amplify
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This auth starter implements a basic authentication flow for signing up signing in users as well as protected client side routing using [AWS Amplify](https://amplify.aws). Auth features:
-- User sign up
-- User sign in
-- Multi-factor Authentication
-- User sign-out
+## Getting Started
 
-![Gatsby Amplify](src/images/gatby-auth.gif)
+First, run the development server:
 
-# Deploy to the Amplify console
-
-Click the button to deploy a fullstack app in your AWS account:
-
-[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/aws-samples/aws-amplify-gatsby-auth)
-
-You can now continuously deploy changes to your frontend or backend and Amplify Console will automatically deploy those changes.
-
-<!-- <img src="https://github.com/swaminator/gatsby-auth-starter-aws-amplify/blob/master/src/images/amplify-console.gif" width="800"/> -->
-![Amplify Console](src/images/amplify-console.gif)
-
-
-# Run locally
-
-1. Create the project
-
-```sh
-gatsby new gatsby-amplify-auth https://github.com/dabit3/gatsby-auth-starter-aws-amplify
-```
-
-2. Change into the new directory
-
-```sh
-cd gatsby-amplify-auth
-```
-
-3. Change into the new directory
-
-```sh
-yarn
+```bash
+npm run dev
 # or
-npm install
+yarn dev
 ```
 
-4. Install & configure the AWS Amplify CLI.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```sh
-npm install -g @aws-amplify/cli
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-amplify configure
-```
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-> To see a video of how to configure the CLI, click [here](https://www.youtube.com/watch?v=fWbM5DLh25U)
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-5. Create a new AWS Amplify Project
+## Learn More
 
-```
-amplify init
-```
+To learn more about Next.js, take a look at the following resources:
 
-> Here, walk through the following steps:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Enter a name for the project __YOURPROJECTNAME__
-- Enter a name for the environment __master__
-- Choose your default editor: __Visual Studio Code__ (or your editor of choice)
-- Choose the type of app that you're building __javascript__
-- What javascript framework are you using __react__
-- Source Directory Path: __src__
-- Distribution Directory Path: __public__
-- Build Command: __npm run-script build__
-- Start Command: __npm run-script develop__
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-6. Push the updated project configuration to AWS. It will deploy a CloudFormation template that has an Amazon Cognito resource that enables user authentication.
+## Deploy on Vercel
 
-```sh
-amplify push
-```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-7. Then you can run it by:
-```sh
-gatsby develop
-```
-
-### License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
